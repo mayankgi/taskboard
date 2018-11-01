@@ -1,0 +1,18 @@
+@import '../../styles/colors';
+
+.card{
+    display: flex;
+    margin: 10px;
+    border: 1px solid $gray-color;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: $dominant-color;
+    >p{
+        flex-grow: 1;
+
+    }
+    > button{
+        border: 0px;
+        
+    }
+}

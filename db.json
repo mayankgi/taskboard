@@ -1,0 +1,52 @@
+{
+  "boards": [
+    {
+      "title": "adasdasdasd",
+      "id": 1
+    }
+  ],
+  "columns": [
+    {
+      "title": "TODO",
+      "boardId": "1",
+      "id": 1
+    },
+    {
+      "title": "In Progress",
+      "boardId": "1",
+      "id": 2
+    },
+    {
+      "title": "Completed",
+      "boardId": "1",
+      "id": 3
+    }
+  ],
+  "cards": [
+    {
+      "description": "Task 1",
+      "columnId": 3,
+      "id": 1
+    },
+    {
+      "description": "Task 2",
+      "columnId": 2,
+      "id": 2
+    },
+    {
+      "description": "Task 3",
+      "columnId": 1,
+      "id": 3
+    },
+    {
+      "description": "Task 4",
+      "columnId": 1,
+      "id": 4
+    },
+    {
+      "description": "Task 5",
+      "columnId": 1,
+      "id": 5
+    }
+  ]
+}

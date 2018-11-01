@@ -1,0 +1,17 @@
+$button-class-postfix: primary, success, danger, warning; 
+button{
+    background-color: $button-bg-color-default;
+    padding: $button-padding;
+    border: 1px solid $button-border-color-default;
+    border-radius: $button-border-radius-size;
+    $color: $text-color-primary;
+    cursor: pointer;
+    &:disabled{
+        background-color: $disabled-color;
+        border-color: darken($disabled-color, 15%);
+    }
+    &:hover{
+        background-color: darken($disabled-color, 15%);
+        background-color: darken($disabled-color, 30%)
+    }
+}

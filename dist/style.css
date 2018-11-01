@@ -1,0 +1,105 @@
+button {
+  background-color: #ffffff;
+  padding: 0.75 rem 0.5rem;
+  border: 1px solid #333333;
+  border-radius: 0.3125rem;
+  cursor: pointer; }
+  button:disabled {
+    background-color: #E2E3E5;
+    border-color: #babcc1; }
+  button:hover {
+    background-color: #babcc1;
+    background-color: #91959d; }
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+html, body, #app, .app {
+  height: 100%;
+  font-family: helvetica;
+  font-weight: 300; }
+.board {
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  margin: 10px 10px 0 10px; }
+  .board > .columns {
+    flex-grow: 1;
+    display: flex;
+    padding: 10px 0px; }
+.column {
+  flex-grow: 1;
+  flex-basis: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 1px solid #888888;
+  margin-right: 10px;
+  border-radius: 5px; }
+  .column:last {
+    margin-right: 0px; }
+  .column > header {
+    background-color: #CDE5FE;
+    padding: 10px;
+    border-bottom: 1px solid #888888; }
+  .column > .cards {
+    flex-grow: 1; }
+  .column > button {
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
+.card {
+  display: flex;
+  margin: 10px;
+  border: 1px solid #888888;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #f3f0fc; }
+  .card > p {
+    flex-grow: 1; }
+  .card > button {
+    border: 0px; }

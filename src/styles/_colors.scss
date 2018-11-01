@@ -1,0 +1,47 @@
+//background
+$dominant-color:                 #f3f0fc !default;
+$complimentory-color:            #222222 !default;
+$ternary-color:                  #C19C7A !default;
+$white-color:                    #ffffff !default;
+$black-color:                    #000000 !default;
+$blackish-color:                 #333333 !default;
+$gray-color:                     #888888 !default;
+
+//text and background
+$primary-color:                  #CDE5FE !default;
+$success-color:                  #D5EDDB !default;
+$danger-color:                   #D5EDDB !default;
+$warning-color:                  #FFF2CF !default;
+$disabled-color:                 #E2E3E5 !default; 
+
+//Text
+$text-color-primary:             #333333 !default;
+$text-color-secondary:           #888888 !default;
+$link-color-primary:             #5CA7DA !default;
+$link-color-secondary:           #EBA559 !default;
+$header-color:                   #C19C7A !default;
+$menu-item-color:                $primary-color;
+
+//Buttons
+$button-bg-color-default:        $white-color;
+$button-border-color-default:    $blackish-color;
+
+
+$font-size-base:              1rem !default; 
+$font-size-lg:                ($font-size-base * 1.25) !default;
+$font-size-sm:                ($font-size-base * .875) !default;
+$spacer:                      1rem !default;
+
+$line-height-base:            1.5 !default;
+
+$h1-font-size:                $font-size-base * 2.5 !default;
+$h2-font-size:                $font-size-base * 2 !default;
+$h3-font-size:                $font-size-base * 1.75 !default;
+$h4-font-size:                $font-size-base * 1.5 !default;
+$h5-font-size:                $font-size-base * 1.25 !default;
+$h6-font-size:                $font-size-base !default;
+
+$headings-margin-bottom:      ($spacer / 2) !default;
+
+$button-padding:              .75 rem .5rem;
+$button-border-radius-size:   .3125rem;
